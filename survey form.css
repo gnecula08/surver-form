@@ -1,0 +1,60 @@
+#main_body{
+	font-family: 'Noto Sans', sans-serif;
+    font-size: normal;
+    margin: 0 auto;
+    width: 900px;
+}
+
+body{
+	display: block;
+	background-image: url(https://decoart.ro/wp-content/uploads/2019/11/85013424.jpg);
+	text-align: center;
+	line-height: 25px;
+}
+
+	#form_container{
+		border:3px dashed black;
+		background-color: #aa6f39;
+
+	}
+
+	.aperon{
+		margin-right:80px;
+	}
+
+
+	#prim{
+		width:100px;
+	}
+
+	.primu{
+		margin-right:70px;
+	}
+
+	#element1{
+		width: 230px;
+	}
+
+	#email-label{
+		width:200px;
+	}
+
+	.dolar{
+		margin-left: 15px;
+	}
+	.cent{
+		margin-left: 80px;
+	}
+
+	#submit{
+		background-color: #008CBA;
+		width: 80px;
+		border-radius: 25%;
+		font-weight: bold;
+		font-size: 14px;
+	}
+	.texta{
+		border-radius: 15px 50px;
+		width: 500px;
+		background-color: #bfbf8a;
+	}

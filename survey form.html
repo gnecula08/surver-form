@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="survey form.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body id="main_body">
+	<div id="form_container">
+<h1 id="title">Job Application</h1>
+<p id="description">Please fill out the information below as complete as possible.</p><hr>
+<form id="survey-form">
+	<strong>Applicant Name</strong><br>
+	
+	<input type="text" name="titlu" id="titlu" placeholder="Title">
+	<input type="text" name="prim" id="prim"  placeholder="First Name">
+	<input type="text" name="ultim" id="ultim" placeholder="Last Name"><br>
+	
+	<label for="titlu" class="aperon">Title</label>
+	<label for="prim" class="primu">First Name</label>
+	<label for="ultim">Last Name</label><br><br>
+	<label><strong>Birthday</strong></label><br>
+	<select name="month" id="dropdown">
+		<option></option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>August</option>
+			<option>September</option>
+			<option>Octomber</option>
+			<option>November</option>
+			<option>December</option>
+	</select>
+	<select name="day">
+		<option></option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+	</select>
+	<select name="year">
+		<option></option>
+			<option>1989</option>
+			<option>1990</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+	</select><br><br>
+
+<label><strong>What job are you applying for?*</strong></label><br>
+	<select name="job" id="info">
+		<option value="" selected="selected"></option>
+		<option value="1" name="soft dev">Software Developer</option>
+		<option value="2" name="graphic">Graphic Designer</option>
+		<option value="3" name="analyst">System Analyst</option>
+	</select><br><br>
+<strong>Applicant Address</strong><br>
+	<input type="text" name="element1" id="element1"value=""><br>
+	<label for="element1">Street Address</label><br>
+	<input type="text" name="element2" id="element2" value=""><br>
+	<label for="element2">City</label><br>
+	<input type="text" name="element3" id="element3" value=""><br>
+	<label for="element3">State / Province / Region</label><br>
+	<input type="text" name="element4" id="element4" value=""><br>
+	<label for="element4">Postal / Zip Code</label><br><br>
+	
+	<label for="area"><strong>Country</strong></label><br>
+	<input type="checkbox" name="england" id="area" value="England">England<br>
+	<input type="checkbox" name="wales" id="area" value="Wales">Wales<br>
+	<input type="checkbox" name="scotland" id="area" value="Scotland">Scotland<br>
+	<input type="checkbox" name="ireland" id="area" value="Ireland">Ireland<br><br>
+	
+	<strong>Email Address</strong><br>
+	<input id="email-label" type="email" name="email" placeholder="your email"><br><br>
+	<span class="relocate">Are you willing to relocate?</span><br>
+	<input type="radio" name="yes/no" value="Yes">Yes<br>
+	<input type="radio" name="yes/no" value="No">No<br><br>
+	<strong>Salary Requirment</strong><br>
+	$<input type="number" id="1" id="number-label" name="dollar" maxlength="4" placeholder="salary">
+	.<input type="number" id="2" id="number-label" name="cent" maxlength="2" placeholder="salary"><br>
+	<label for="dollar" class="dolar">Dollars</label>
+	<label for="cent" class="cent">Cents</label>
+</form>
+	<p><strong><em>*If you have any additional comments, please type in here</strong></em>:</p>
+	<textarea class="texta" rows="5" cols="50" placeholder="Enter your comments here"></textarea><br>
+	<input type="submit" name="submit_form" id="submit" value="Submit">
+</div>
+</body>
+</html>
